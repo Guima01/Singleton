@@ -11,7 +11,7 @@ class ClassTeacherTest {
     }
 
     @Test
-    void DeveRetornarCapacidadeDaSala() {
+    void DeveRetornarNomeDaDisciplina() {
         ClassTeacher.getInstance().setNameClass("Aspectos avançados em Engenharia de Sofware");
         assertEquals("Aspectos avançados em Engenharia de Sofware", ClassTeacher.getInstance().getNameClass());
     }
